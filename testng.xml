@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SmartyAdsTestSuite" parallel="false">
+  <test name="IntegrationTest">
+    <packages>
+      <package name="com.example.valeriatesting.smartyads_test.integration"/>
+    </packages>
+  </test>
+  <test name="ComponentTest">
+    <packages>
+      <package name="com.example.valeriatesting.smartyads_test.components"/>
+    </packages>
+  </test>
+</suite>
