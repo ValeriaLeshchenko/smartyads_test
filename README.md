@@ -19,6 +19,7 @@ This project uses *WebDriverManager* which loads the latest *Chrome binary* need
 ```mvn test-compile```
 
 ```mvn test```
+
 You'll find test reports in Surefire report directory: *target/surefire-reports*.
 - In Eclipse, right-click on *testng.xml* and select **Run as TestNG Suite**.
 The reports will be in *test-output* folder.
