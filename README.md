@@ -13,8 +13,11 @@ This project uses *WebDriverManager* which loads the latest *Chrome binary* need
 
 ### Now you're all set to run the tests in command line or IDE.
 - To run in command line:
+
 ```mvn clean```
+
 ```mvn test-compile```
+
 ```mvn test```
 You'll find test reports in Surefire report directory: *target/surefire-reports*.
 - In Eclipse, right-click on *testng.xml* and select **Run as TestNG Suite**.
